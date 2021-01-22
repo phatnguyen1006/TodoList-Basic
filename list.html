@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note List</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="list.css"
+</head>
+<body>
+    <!--CODE-->
+    <div id="tasker" class="tasker">
+        <div id="error" class="error">
+            Please enter a task
+        </div>
+        <div id="tasker-header" class="tasker-header">
+            <input type="text" id="input-task" placeholder="Enter a task">
+            <button id="add-task-btn">
+                <i class="fa fa-fw fa-plus"></i>
+            </button>
+        </div>
+        <div class="tasker-body">
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+  <!--END NATIVE CODE-->
+    <script src="./list.js"></script>
+</body>
+</html>
